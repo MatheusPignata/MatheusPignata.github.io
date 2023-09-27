@@ -11,13 +11,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* :root{
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
-    --text-color: #ededed;
-    --main-color: #00abf0;
-} */
-
 :root{
     --bg-color: #2b2730;
     --second-bg-color: #52329e;
@@ -40,7 +33,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -58,6 +51,10 @@ body{
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
+}
+
+.logo img{
+    height: 5rem;
 }
 
 .navbar{
